@@ -160,6 +160,7 @@ q {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding: 40px;
     align-self: stretch;
     background-color: #3882F6;
     color: white;
@@ -175,6 +176,16 @@ q {
 .right-side-call {
     display: flex;
     align-items: flex-end;
+}
+
+.call-button > a{
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    padding: 5px 28px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
 }
 footer {
     display: flex;
